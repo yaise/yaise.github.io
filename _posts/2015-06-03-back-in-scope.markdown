@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Back in scope.
+title: Back in scope
 ---
 So I decided in April of last year that I'd try to write more. However much like how things get deprioritized in software projects, writing did. A lot of stuff happened on the personal front and I ignored this site for quite some time. 
 

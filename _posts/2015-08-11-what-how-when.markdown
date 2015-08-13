@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What-How-When.
+title: What-How-When
 ---
 I've been finding it hard to get into the groove of writing. Every time I think about working on the blog, my mind invariably steers towards the technological aspects behind this site and I start thinking about refactoring the site and the code behind it, the domain settings, and other ways in which I could make it cooler which in turn leads me to go down the rabbit hole that is the interwebs and research the technical details to no end. I then realized that this sounds awfully similar to endless refactoring that software developers often get sucked into and forget what the initial goal was or when to stop. 
 
