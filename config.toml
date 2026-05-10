@@ -1,0 +1,17 @@
+base_url = "https://somesh.sasalatti.com"
+title = "Somesh Sasalatti"
+description = "Writing about software, photography, projects, and the rest."
+compile_sass = true
+generate_feeds = true
+feed_filenames = ["atom.xml"]
+highlight_code = true
+highlight_theme = "base16-ocean-dark"
+
+taxonomies = [
+    { name = "tags", feed = true },
+]
+
+[extra]
+author = "Somesh Sasalatti"
+github = "https://github.com/yaise"
+twitter = "https://twitter.com/ssasalatti"

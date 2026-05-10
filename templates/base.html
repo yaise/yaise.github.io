@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}{{ config.title }}{% endblock %}</title>
+  <link rel="stylesheet" href="{{ get_url(path='main.css') }}">
+  <link rel="alternate" type="application/atom+xml" title="{{ config.title }}" href="{{ get_url(path='atom.xml') }}">
+</head>
+<body>
+  <div class="site">
+    <header class="site-header">
+      <a class="site-title" href="{{ config.base_url }}/">{{ config.title }}</a>
+      <nav class="site-nav">
+        <a href="{{ config.base_url }}/">Home</a>
+        <a href="{{ config.base_url }}/about">About</a>
+        <a href="{{ config.base_url }}/tags">Tags</a>
+      </nav>
+    </header>
+    <main>
+      {% block content %}{% endblock %}
+    </main>
+    <footer class="site-footer">
+      <span>{{ config.extra.author }}</span>
+      <span class="footer-links">
+        <a href="{{ config.extra.github }}">GitHub</a>
+        <a href="{{ config.extra.twitter }}">Twitter</a>
+      </span>
+    </footer>
+  </div>
+</body>
+</html>
